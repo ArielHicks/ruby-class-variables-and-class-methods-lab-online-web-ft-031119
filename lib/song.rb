@@ -6,7 +6,7 @@ class Song
     @name = name
     @genre = genre
     @artist = artist
-    @all = {}
+    # @all = {}
   end
 
 
