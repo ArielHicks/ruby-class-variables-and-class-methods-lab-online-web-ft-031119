@@ -1,3 +1,4 @@
+require 'pry'
 class Song
   @@genres=[]
   @@artists=[]
@@ -28,7 +29,9 @@ class Song
   end
 
   def self.genre_count
-
+    @@genres.each_with_index do |genre,index|
+      binding.pry
+    end
   end
 
 end
